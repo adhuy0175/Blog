@@ -1,7 +1,7 @@
 const res = require('express/lib/response');
 const Course = require('../models/Course');
 const { multipleMongooseToObject } = require('../../util/mongoose');
-class SiteController {
+class CourseControllerController {
 //[GET] /
 index(req, res, next) {
 //res.render('home');
@@ -19,4 +19,4 @@ res.render('search');
 }
 }
 //create a instance of the opject
-module.exports = new SiteController();
+module.exports = new CourseController();
