@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0e26dada-bcfc-4725-903d-d359913f3ffb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.idea/Blog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/nodemon.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/app/controllers/CourseController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/app/controllers/NewsController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/app/controllers/SiteController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/app/models/Course.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/config/db/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/public/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/public/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/resources/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/resources/scss/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/resources/views/courses/create.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/resources/views/courses/show.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/resources/views/home.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/resources/views/layouts/main.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/resources/views/news.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/resources/views/partials/footer.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/resources/views/partials/header.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/resources/views/search.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/routes/course.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/routes/news.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/routes/site.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/util/mongoose.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodemon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/controllers/CourseController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/controllers/NewsController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/controllers/SiteController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/models/Course.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/db/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/scss/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/home.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/layouts/main.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/news.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/partials/footer.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/partials/header.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/search.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/course.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/news.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/site.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/mongoose.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26iqixM7E9MOaNJTEsqZLae5UqI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../aa/Blog" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e26dada-bcfc-4725-903d-d359913f3ffb" name="Changes" comment="" />
+      <created>1647916890158</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647916890158</updated>
+      <workItem from="1647916892739" duration="3720000" />
+      <workItem from="1647945038586" duration="1055000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
