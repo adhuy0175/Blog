@@ -2,63 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e26dada-bcfc-4725-903d-d359913f3ffb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.idea/Blog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/nodemon.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/app/controllers/CourseController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/app/controllers/NewsController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/app/controllers/SiteController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/app/models/Course.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/config/db/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/public/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/resources/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/resources/scss/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/resources/views/courses/create.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/resources/views/courses/show.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/resources/views/home.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/resources/views/layouts/main.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/resources/views/news.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/resources/views/partials/footer.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/resources/views/partials/header.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/resources/views/search.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/routes/course.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/routes/news.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/routes/site.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/util/mongoose.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodemon.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/controllers/CourseController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/controllers/NewsController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/controllers/SiteController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/models/Course.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/db/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/css/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/scss/app.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/views/home.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/views/layouts/main.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/views/news.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/views/partials/footer.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/views/partials/header.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/views/search.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/course.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/news.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/site.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/mongoose.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/app/controllers/MeController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/resources/views/courses/edit.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/resources/views/courses/store.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/resources/views/me/stored-courses.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/routes/me.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/app/controllers/CourseController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/app/controllers/CourseController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/config/db/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/config/db/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/resources/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/resources/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/resources/views/home.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/resources/views/home.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/resources/views/layouts/main.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/resources/views/layouts/main.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/resources/views/partials/header.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/resources/views/partials/header.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/routes/course.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/course.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +29,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -88,6 +58,16 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Blog/client/public/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -97,12 +77,27 @@
       <option name="presentableId" value="Default" />
       <updated>1647916890158</updated>
       <workItem from="1647916892739" duration="3720000" />
-      <workItem from="1647945038586" duration="1055000" />
+      <workItem from="1647945038586" duration="1727000" />
+      <workItem from="1647951924237" duration="11879000" />
+      <workItem from="1648088371695" duration="818000" />
+      <workItem from="1648142491613" duration="28000" />
+      <workItem from="1648486449412" duration="10439000" />
+      <workItem from="1648526620606" duration="694000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
