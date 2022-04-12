@@ -7,31 +7,26 @@ const port = 5000;
 const app = express();
 const route = require('./routes');
 const db = require('./config/db');
-
 //connect to database
-db.connect()
-    .then((r) => {
-        console.log('connected to database');
-    })
-    .catch((e) => {
-        console.log('error connecting to database');
-    });
+db.connect();
 
 app.use(express.static(path.join(path.join(__dirname, 'public'))));
 //HTTP logger
 app.use(morgan('combined'));
 app.use(express.json());
-app.use(express.urlencoded({extended: true}));
+app.use(express.urlencoded({ extended: true }));
 //template engine
 app.engine(
-    'hbs',
-    engine({
-        extname: '.hbs',
-        helpers: {
-            sum: (a, b) => a + b,
-        }
-    }),
+'hbs',
+engine({
+extname: '.hbs',
+}),
 );
+app.all('/', function (req, res, next) {
+res.header('Access-Control-Allow-Origin', '*');
+res.header('Access-Control-Allow-Headers', 'X-Requested-With');
+next();
+});
 app.use(methodOverride('_method'));
 app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, 'resources', 'views'));
@@ -39,5 +34,5 @@ app.set('views', path.join(__dirname, 'resources', 'views'));
 route(app);
 
 app.listen(port, () => {
-    console.log(`listening at http://localhost:${port}`);
+console.log(`listening at http://localhost:${port}`);
 });

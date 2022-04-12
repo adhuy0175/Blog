@@ -2,25 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e26dada-bcfc-4725-903d-d359913f3ffb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/server/src/app/controllers/MeController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/resources/views/courses/edit.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/resources/views/courses/store.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/resources/views/me/stored-courses.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/routes/me.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/app/controllers/HoaDonController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/app/controllers/PersonController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/app/controllers/PostController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/app/controllers/RoomController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/app/controllers/UserController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/app/models/Bill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/app/models/Post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/app/models/Room.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/app/models/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/resources/views/persons/showPersonal.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/routes/bill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/routes/post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/routes/room.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/routes/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/app/controllers/CourseController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/app/controllers/CourseController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/app/controllers/SiteController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/app/controllers/SiteController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/app/models/Course.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/app/models/Course.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/config/db/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/config/db/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/resources/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/resources/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/resources/views/home.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/resources/views/home.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/resources/views/layouts/main.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/resources/views/layouts/main.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/resources/views/partials/header.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/resources/views/partials/header.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/routes/course.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/course.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/resources/views/news.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/resources/views/news.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/routes/me.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/routes/news.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,14 +62,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../aa/Blog" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Blog/client/src/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Blog/client/public/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -83,6 +94,20 @@
       <workItem from="1648142491613" duration="28000" />
       <workItem from="1648486449412" duration="10439000" />
       <workItem from="1648526620606" duration="694000" />
+      <workItem from="1648626191133" duration="9039000" />
+      <workItem from="1648654460146" duration="2066000" />
+      <workItem from="1648660955783" duration="833000" />
+      <workItem from="1648696804621" duration="3236000" />
+      <workItem from="1648793587171" duration="83000" />
+      <workItem from="1648810849838" duration="359000" />
+      <workItem from="1648823164326" duration="136000" />
+      <workItem from="1648916608149" duration="3111000" />
+      <workItem from="1648923976174" duration="1243000" />
+      <workItem from="1648943275003" duration="80000" />
+      <workItem from="1649091851227" duration="69000" />
+      <workItem from="1649091941198" duration="3652000" />
+      <workItem from="1649130259068" duration="310000" />
+      <workItem from="1649230449548" duration="45000" />
     </task>
     <servers />
   </component>

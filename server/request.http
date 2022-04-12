@@ -1,0 +1,11 @@
+GET http://localhost:5000/
+
+Content-Type: application/json
+[
+     {
+     "username": "adhuy015",
+     "password": "adhuy015",
+        "email": "email@gmail.com",
+        "name": "Adhuy"
+ }
+]
